@@ -1,0 +1,10 @@
+tmp
+build
+build.log
+.fastdev.lock
+.DS_Store
+.settings
+.idea
+coffee_file_hashes.json
+*~
+*.iml

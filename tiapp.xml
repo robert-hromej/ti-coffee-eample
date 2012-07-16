@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">889xLQ7PKMMpikCDbLg24CfY8Nw0xUFN</property>
+    <property name="acs-oauth-key-production" type="string">gHotWM3KPofFXDGV1c7d6YMvcOQkEZYy</property>
+    <property name="acs-api-key-production" type="string">bSjOCovUQwDaC7F00nGNoM71PTlERF4a</property>
+    <property name="acs-oauth-secret-development" type="string">t6tX1HfiKzKzPfBswBczE1eULuu08uml</property>
+    <property name="acs-oauth-key-development" type="string">KmV2BSn7puVECdfontpj10q7rsQ7nGoo</property>
+    <property name="acs-api-key-development" type="string">JOJXaPUuENKUIMS8ezMPserUmTY8257g</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>com.titanium.coffee</id>
+    <name>Titanium CoffeeScript example project</name>
+    <version>1.0</version>
+    <publisher>robert</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by robert</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>54f3e7f6-d68d-44cb-bee0-654714dca4a6</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.1.0">ti.cloud</module>
+    </modules>
+    <!-- source https://github.com/robert-hromej/ti_coffee_plugin -->
+    <plugins>
+        <plugin version="1.0">ti_coffee_plugin</plugin>
+    </plugins>
+</ti:app>
